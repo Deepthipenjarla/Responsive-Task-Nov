@@ -1,0 +1,57 @@
+.sidebar {
+  position: fixed;
+  left: -150px;
+  top: 0;
+  height: 100%;
+  width: 125px;
+  background-color: #cf95ec;
+  padding-top: 70px;
+  transition: 0.5s;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 15px;
+  text-align: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  display: block;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  background-color: #575757;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 40%; 
+    left: -50%; 
+  }
+
+  .sidebar.open {
+    left: 0;
+  }
+}

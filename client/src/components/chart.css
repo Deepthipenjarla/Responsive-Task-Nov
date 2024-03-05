@@ -1,0 +1,34 @@
+.charts-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  overflow-x: auto;
+  padding: 20px; 
+}
+.chart-item {
+  flex: 0 0 auto;
+  border: 1px solid #bf7bd6; 
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px #bf7bd6; 
+  margin-right: 10px;
+}
+
+
+.chart-item canvas {
+  max-width: 200px; 
+  max-height: 200px; 
+}
+
+
+@media screen and (max-width: 768px) {
+  .charts-container {
+    flex-direction: column; 
+  }
+
+  .chart-item {
+    margin-right: 0; 
+    margin-bottom: 10px; 
+  }
+}
