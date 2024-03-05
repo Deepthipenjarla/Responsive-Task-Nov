@@ -2,27 +2,6 @@ Responsive React Components REQUIREMENTS OF THE TASK Navbar Sidebar Search bar C
 
 NEED TO CREATE A FOLDER:- CLIENT: 1.The client was developed by react.js. 2.The project is divided into several components, each with its specific functionality and styling. Here, we provided the documentation of the main components and their associated CSS files.
 
-|-- src/
-|   |-- components/
-|   |   |   |-- Navbar.js
-|   |   |   |-- Navbar.css
-|   |   |   |-- Sidebar.js
-|   |   |   |-- Sidebar.css
-|   |   |   |-- Footer.js
-|   |   |   |-- Footer.css
-|   |   |   |-- Cards.js
-|   |   |   |-- Cards.css
-|   |   |   |-- Card.js
-|   |   |   |-- Card.css
-|   |   |   |-- Chart.js
-|   |   |   |-- Chart.css
-|   |   |   |-- Table.js
-|   |   |   |-- Table.css
-|   |   |   |-- Formdata.js
-|   |   |   |-- Formdata.css
-|
-|   |-- App.js
-
 MAIN PAGE COMPONENTS:- The Main Page component is the React component that defines the
 structure of your web application.
  ![Screenshot (48)](https://github.com/Deepthipenjarla/Responsive-Task-Nov/assets/110033651/39e04769-4a3b-4731-8c4f-b9953ca8bfee)
